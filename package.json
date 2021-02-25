@@ -1,0 +1,17 @@
+{
+    "name": "just-typescript",
+    "version": "1.0.0",
+    "author": "Rainer Bezzina",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "compile": "tsc",
+        "compile:watch": "tsc -w",
+        "start": "lite-server"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lite-server": "^2.6.1",
+        "typescript": "^4.2.2"
+    }
+}
